@@ -24,7 +24,7 @@ describe('Utilities test (with setup and tear-down)', function() {
 
     submitPaymentInfo();
 
-    expect(sumPaymentTotal('tipAmt')).toEqual(300);
+    expect(sumPaymentTotal('billAmt')).toEqual(300);
   });
 
   it('should sum total tip percent sumPaymentTotal()', function() {
